@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30"
+    tools:context=".MenuApp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="40sp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:textStyle="bold  "
+        android:fontFamily="sans-serif"
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layaout_marginTop="20dp"
+        android:layout_margin="50"
+        android:text="@string/colores"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30"
+        android:layout_margin="50"
+        android:text="@string/frutas"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_margin="50"
+        android:text="@string/animales"
+
+
+        />
+
+</LinearLayout>
